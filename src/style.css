@@ -1,1 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.outlined-text {
+  font-family: "DynaPuff", sans-serif; /* Reemplaza con tu Google Font */
+  font-size: 58px; /* Tamaño de la fuente */
+
+  -webkit-text-stroke: 1px rgb(243, 26, 196); /* Grosor del borde y color */
+  text-stroke: 2px black; /* Compatibilidad adicional para otros navegadores */
+}
