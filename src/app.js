@@ -228,10 +228,10 @@ window.onload = function() {
   document.getElementById("enlaceAGenerator").onclick = function() {
     document.getElementById("generator").value = random();
   };
-  // document.getElementById("enlaceAGenerator2").onclick = function() {
-  //   document.getElementById("generator").value = random();
-  // };
-  // document.getElementById("enlaceAGenerator3").onclick = function() {
-  //   document.getElementById("generator").value = random();
-  // };
+  document.getElementById("enlaceAGenerator2").onclick = function() {
+    document.getElementById("generator").value = random();
+  };
+  document.getElementById("enlaceAGenerator3").onclick = function() {
+    document.getElementById("generator").value = random();
+  };
 };

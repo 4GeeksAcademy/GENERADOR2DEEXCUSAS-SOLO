@@ -56,7 +56,10 @@ background-image: url('https://cdn.pixabay.com/photo/2019/04/26/17/47/color-4158
 height: 910px;
 "
     >
-      <div class="mask" style="background-color: rgba(221, 22, 205, 0.199);">
+      <div
+        class="mask rounded-5"
+        style="background-color: rgba(221, 22, 205, 0.199);"
+      >
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white" style="font-size: x-large;">
             <h1
@@ -68,7 +71,6 @@ height: 910px;
                   class="mb-5 mt-2"
                   src="https://fontmeme.com/permalink/240817/b59f4baa2d493d71c363d3b18d5bd221.png"
                   alt="call-of-cthulhu-font"
-                  border="0"
               /></a>
             </h1>
 
@@ -81,7 +83,6 @@ height: 910px;
                   class="mt-5"
                   src="https://fontmeme.com/permalink/240817/f782c218401267b724d2f0b76eee9099.png"
                   alt="call-of-cthulhu-font"
-                  border="0"
               /></a>
             </h3>
             <textarea
@@ -89,24 +90,58 @@ height: 910px;
               class="form-control text-center rounded-pill mb-5 fs-custom-h3 m-5"
               style="height: auto; font-family: DynaPuff; font-size: x-large; 
                     background-color: rgba(137, 43, 226, 0.116); border: none; 
-                    color: rgb(4, 14, 24); width: 1500px;"
+                    color: rgb(180, 235, 245); width: 1500px; text-align: center;"
             ></textarea>
-
-            <a
-              id="enlaceAGenerator"
-              onclick="random()"
-              data-mdb-ripple-init
-              class="btn btn-outline-light btn-lg m-5"
-              href="#!"
-              role="button"
-            >
-              <i
-                id="enlaceAGenerator2"
-                class="fa-solid fa-shield-heart fs-1"
-                onclick="random()"
-                style="color: rgb(5, 53, 49);"
-              ></i
-            ></a>
+            <div class="row">
+              <div class="col">
+                <a
+                  id="enlaceAGenerator"
+                  onclick="random()"
+                  data-mdb-ripple-init
+                  class="btn btn-outline-light btn-lg m-5"
+                  role="button"
+                  style=" border: solid 3px rgb(160, 228, 240);"
+                >
+                  <i
+                    class="fa-solid fa-shield-heart fs-1"
+                    onclick="random()"
+                    style="color: rgb(160, 228, 240);"
+                  ></i
+                ></a>
+              </div>
+              <div class="col">
+                <a
+                  id="enlaceAGenerator2"
+                  onclick="random()"
+                  data-mdb-ripple-init
+                  class="btn btn-outline-light btn-lg m-5"
+                  role="button"
+                  style=" border: solid 3px black;"
+                >
+                  <i
+                    class="fa-solid fa-shield-heart fs-1"
+                    onclick="random()"
+                    style="color: rgb(5, 53, 49);"
+                  ></i
+                ></a>
+              </div>
+              <div class="col">
+                <a
+                  id="enlaceAGenerator3"
+                  onclick="random()"
+                  data-mdb-ripple-init
+                  class="btn btn-outline-light btn-lg m-5"
+                  role="button"
+                  style=" border: solid 3px black;"
+                >
+                  <i
+                    class="fa-solid fa-shield-heart fs-1"
+                    onclick="random()"
+                    style="color: rgb(5, 53, 49);"
+                  ></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
