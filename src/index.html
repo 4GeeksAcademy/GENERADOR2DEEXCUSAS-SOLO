@@ -11,7 +11,10 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="app.js" />
     <link rel="shortcut icon" href="./4geeks.ico" />
@@ -28,72 +31,194 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
-<style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Sixtyfour:BLED,SCAN@77,4&display=swap"
+      rel="stylesheet"
+    />
+    <style>
       .fs-custom-h1 {
-        font-size: 4rem; /* Ajusta el tamaño según tus necesidades */
+        font-size: 4rem;
       }
       .fs-custom-h3 {
-        font-size: 2.5rem; /* Ajusta el tamaño según tus necesidades */
+        font-size: 2.5rem;
       }
     </style>
   </head>
-  <body style="background-color: rgba(131, 14, 125, 0.192) ;">
+  <body style="background-color: rgba(131, 14, 125, 0.192);">
+    <!-- Hero -->
     <div
-      class="container-fluid d-flex justify-content-center"
-      class="navbar-wrapper"
-      style="width: auto; height:auto "
+      class="p-5 text-center bg-image rounded-3 d-flex justify-content-center align-items-center"
+      style=" background-repeat: no-repeat; background-position-y:center; background-position-x: center; background-size: cover;
+background-image: url('https://cdn.pixabay.com/photo/2019/04/26/17/47/color-4158152_1280.jpg');
+height: 910px;
+"
     >
-    <div class="second-container" class=" d-flex justify-content-center">
-      <img
-        class="navbar-img opacity-50 rounded"
-        style="width: 1600px; height:620px; object-fit: cover;"
-        src="https://cdn.pixabay.com/photo/2019/04/26/17/47/color-4158152_1280.jpg"
-        class="card-img"
-        alt="..."
-      />
-      <div class="card-img-overlay">
- 
-        <h1 class="card-text text-center text-black  fs-custom-h1" style="font-family: caveat;"><a ><img class="mb-5 mt-2" src="https://fontmeme.com/permalink/240817/b59f4baa2d493d71c363d3b18d5bd221.png" alt="call-of-cthulhu-font" border="0"></a></h1>
-        <h3 class="card-text text-center mt-3 mb-5 fs-custom-h3"style="font-family: caveat"><a><img class="mt-5" src="https://fontmeme.com/permalink/240817/f782c218401267b724d2f0b76eee9099.png" alt="call-of-cthulhu-font" border="0"></a></h3>
-        <div class="d-flex justify-content-center" >
-        <div data-mdb-input-init class="form-outline mb-4 w-75 d-flex flex-column align-items-center" >
-          <textarea id="generator" class="form-control text-center rounded-pill mb-5 fs-custom-h3" style="height: auto; font-family:Sixtyfour; font-size: x-large;;background-color: rgba(137, 43, 226, 0.116);border: none; color: rgb(20, 232, 240); outline-color: black;" 
+      <div class="mask" style="background-color: rgba(221, 22, 205, 0.199);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white" style="font-size: x-large;">
+            <h1
+              class="card-text text-center text-black fs-custom-h1"
+              style="font-family: caveat;"
+            >
+              <a
+                ><img
+                  class="mb-5 mt-2"
+                  src="https://fontmeme.com/permalink/240817/b59f4baa2d493d71c363d3b18d5bd221.png"
+                  alt="call-of-cthulhu-font"
+                  border="0"
+              /></a>
+            </h1>
+
+            <h3
+              class="card-text text-center mt-3 mb-5 fs-custom-h3"
+              style="font-family: caveat;"
+            >
+              <a
+                ><img
+                  class="mt-5"
+                  src="https://fontmeme.com/permalink/240817/f782c218401267b724d2f0b76eee9099.png"
+                  alt="call-of-cthulhu-font"
+                  border="0"
+              /></a>
+            </h3>
+            <textarea
+              id="generator"
+              class="form-control text-center rounded-pill mb-5 fs-custom-h3 m-5"
+              style="height: auto; font-family: DynaPuff; font-size: x-large; 
+                    background-color: rgba(137, 43, 226, 0.116); border: none; 
+                    color: rgb(4, 14, 24); width: 1500px;"
             ></textarea>
-         <img src="/workspaces/GENERADOR2DEEXCUSAS-SOLO/src/assets/img/Daco_919427.png" alt="">
-         <div class="container">
-          <div class="row mt-5 justify-content-between">
-            <div class="col-auto d-flex justify-content-center">
-              <div class="rounded-circle  d-flex justify-content-center align-items-center" style="width: 60px; height: 60px; background-color: rgba(226, 45, 144, 0.356); padding: 3rem;">
-                <i id="enlaceAGenerator" class="bi bi-arrow-through-heart-fill fs-1" onclick="random()" style="color: rgb(15, 233, 215);"></i>
-               
-              </div>
-             
-            </div>
-            <div class="col-auto d-flex justify-content-center">
-              <div class="rounded-circle  d-flex justify-content-center align-items-center" style="width: 60px; height: 60px; background-color: rgba(226, 45, 144, 0.356); padding: 3rem;">
-                <i id="enlaceAGenerator2" class="bi bi-arrow-through-heart-fill fs-1 text-white" onclick="random()"></i>
-              </div>
-          
-            </div>
-            <div class="col-auto d-flex justify-content-center">
-              <div class="rounded-circle  d-flex justify-content-center align-items-center" style="width: 60px; height: 60px; background-color: rgba(226, 45, 144, 0.356); padding: 3rem;">
-                <i id="enlaceAGenerator3" class="bi bi-arrow-through-heart-fill fs-1 text-white" onclick="random()"></i>
+
+            <a
+              id="enlaceAGenerator"
+              onclick="random()"
+              data-mdb-ripple-init
+              class="btn btn-outline-light btn-lg m-5"
+              href="#!"
+              role="button"
+            >
+              <i
+                id="enlaceAGenerator2"
+                class="fa-solid fa-shield-heart fs-1"
+                onclick="random()"
+                style="color: rgb(5, 53, 49);"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero -->
+    <!-- <div
+      class="container-fluid d-flex justify-content-center"
+      style="width: auto; height:auto;"
+    >
+      <div class="container-fluid d-flex justify-content-center">
+        <img
+          class="navbar-img opacity-50 rounded"
+          style="width: 1600px; height:620px; object-fit: cover;"
+          src="https://cdn.pixabay.com/photo/2019/04/26/17/47/color-4158152_1280.jpg"
+          alt="background"
+        />
+        <div class="card-img-overlay">
+          <h1
+            class="card-text text-center text-black fs-custom-h1"
+            style="font-family: caveat;"
+          >
+            <a
+              ><img
+                class="mb-5 mt-2"
+                src="https://fontmeme.com/permalink/240817/b59f4baa2d493d71c363d3b18d5bd221.png"
+                alt="call-of-cthulhu-font"
+                border="0"
+            /></a>
+          </h1>
+
+          <h3
+            class="card-text text-center mt-3 mb-5 fs-custom-h3"
+            style="font-family: caveat;"
+          >
+            <a
+              ><img
+                class="mt-5"
+                src="https://fontmeme.com/permalink/240817/f782c218401267b724d2f0b76eee9099.png"
+                alt="call-of-cthulhu-font"
+                border="0"
+            /></a>
+          </h3>
+
+          <div class="d-flex justify-content-center">
+            <div
+              data-mdb-input-init
+              class="form-outline mb-4 w-75 d-flex flex-column align-items-center"
+            >
+              <textarea
+                id="generator"
+                class="form-control text-center rounded-pill mb-5 fs-custom-h3"
+                style="height: auto; font-family: Sixtyfour; font-size: large; 
+                background-color: rgba(137, 43, 226, 0.116); border: none; 
+                color: rgb(4, 14, 24);"
+              ></textarea>
+              <img
+                src="/workspaces/GENERADOR2DEEXCUSAS-SOLO/src/assets/img/Daco_919427.png"
+                alt=""
+              />
+
+              <div class="container">
+                <div class="row mt-5 justify-content-between">
+                  <div class="col-auto d-flex justify-content-center">
+                    <div
+                      class="rounded-circle d-flex justify-content-center align-items-center"
+                      style="width: 60px; height: 60px; background-color: rgba(226, 45, 144, 0.356); padding: 3rem;"
+                    >
+                      <i
+                        id="enlaceAGenerator"
+                        class="bi bi-arrow-through-heart-fill fs-1"
+                        onclick="random()"
+                        style="color: rgb(15, 233, 215);"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="col-auto d-flex justify-content-center">
+                    <div
+                      class="rounded-circle d-flex justify-content-center align-items-center"
+                      style="width: 60px; height: 60px; background-color: rgba(226, 45, 144, 0.356); padding: 3rem;"
+                    >
+                      <i
+                        id="enlaceAGenerator2"
+                        class="fa-solid fa-shield-heart fs-1"
+                        onclick="random()"
+                        style="color: rgb(5, 53, 49);"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="col-auto d-flex justify-content-center">
+                    <div
+                      class="rounded-circle d-flex justify-content-center align-items-center"
+                      style="width: 60px; height: 60px; background-color: rgba(226, 45, 144, 0.356); padding: 3rem;"
+                    >
+                      <i
+                        id="enlaceAGenerator3"
+                        class="fa-solid fa-heart fs-1"
+                        onclick="random()"
+                        style="color: rgb(15, 233, 215);"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-              
-        </div>        
       </div>
     </div>
-    </div>
-      <div class="fixed-bottom p-4 text-center ">
-       <h4 style="font-family: caveat; te">Hecho con ❤️ x Ale Ruggeri</h4>
-          <script
+    <div class="fixed-bottom p-4 text-center">
+      <h4 style="font-family: caveat;">Hecho con ❤️ x Ale Ruggeri</h4>
+    </div> -->
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
@@ -110,6 +235,3 @@
     ></script>
   </body>
 </html>
-<!-- pndiente de centrar el texto de la barra de texto -->
- <!-- aumentar tamaño si es necesario y aplicar fuente bonita para el generador de texto -->
-  <!-- centrar los iconos  -->
